@@ -4,7 +4,7 @@ html {
     margin: 0;
     font-size: 22px;
     line-height: 1.7rem;
-    background-color: coral;
+    background-color: #6a77cc;
 }
 
 .parallax {
@@ -52,5 +52,8 @@ section {
 }
 
 @media(max-width:560px) {
-    background-attachment: scroll;
-}
+    parallax {
+        background-attachment: scroll;
+    }
+    }
+
